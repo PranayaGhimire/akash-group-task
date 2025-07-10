@@ -31,7 +31,7 @@ const ContactUsForm = () => {
             <input {...register('companyName')} placeholder='Company Name' 
             className='w-full bg-teal-100 border-2 border-teal-400 px-[16px] py-[8px] rounded-[8px]'/>
             <textarea {...register('message')} 
-            placeholder='Message Here' className='w-full block bg-teal-100 border-2 border-teal-400 px-[16px] py-[8px] rounded-[8px]'/>
+            placeholder='Message Here' className='w-full h-50 block bg-teal-100 border-2 border-teal-400 px-[16px] py-[8px] rounded-[8px]'/>
             <button className='w-full bg-teal-500 text-white p-2 rounded-md cursor-pointer hover:bg-teal-600'>
                 Submit
             </button>
