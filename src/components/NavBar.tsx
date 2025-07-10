@@ -8,7 +8,7 @@ const NavBar = () => {
     const [selectedNav,setSelectedNav] = useState('Home');
   return (
     <nav className='flex justify-around items-center bg-gradient-to-bl from-zinc-700 to-zinc-900  h-16 text-white'>
-        <p className='font-bold'>Pranaya App</p>
+        <p className='font-bold'>Pranaya Labs</p>
         <div className='hidden md:flex space-x-10 '>
             {navLinks.map((navLink,index)=>
                 <div key={index} className=''>
