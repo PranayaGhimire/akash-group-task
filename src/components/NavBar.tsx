@@ -33,7 +33,7 @@ const NavBar = () => {
             </SheetTrigger>
             <SheetContent className='w-full bg-gradient-to-tl from-zinc-700 to-zinc-900 text-white '>
                 <SheetHeader>
-                    <SheetTitle className='text-white'>Pranaya App</SheetTitle>
+                    <SheetTitle className='text-white'>Pranaya Labs</SheetTitle>
                     <SheetDescription></SheetDescription>
                 </SheetHeader>
                 <div className='space-y-3 p-[16px]'>

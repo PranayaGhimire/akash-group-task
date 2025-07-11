@@ -25,7 +25,7 @@ export default function Home() {
             <div className="p-5 md:ml-40  w-full space-y-10">
                 <p className="font-bold text-4xl">Our experienced team is committed to grow your business with online leads, calls, conversion and revenue.</p>
                 <div className="flex space-x-3" >
-                    <div className="w-12 h-12 relative">
+                    <div className="w-24 md:w-12 h-12 relative">
                           <Image src={whoWeAre} alt="" fill className="absolute"/>
                     </div>
                     <div className="space-y-2">
@@ -34,7 +34,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="flex space-x-3" >
-                    <div className="w-12 h-12 relative">
+                    <div className="w-24 md:w-12 h-12 relative">
                           <Image src={whatWeDo} alt="" fill className="absolute"/>
                     </div>
                     <div className="space-y-2">
@@ -44,7 +44,7 @@ export default function Home() {
                 </div>
                 <div className="flex space-x-3" >
                     <div className="w-12 h-12 relative">
-                          <Image src={whyDoWeDoIt} alt="" fill className=""/>
+                          <Image src={whyDoWeDoIt} alt="" fill className="absolute"/>
                     </div>
                     <div className="space-y-2">
                         <p className="font-bold">WHY DO WE DO IT </p>

@@ -10,7 +10,7 @@ import { SiGmail } from "react-icons/si";
 import { FaPhoneSquareAlt } from "react-icons/fa";
 const Footer = () => {
   return (
-    <div className='p-[16px] bg-gradient-to-l from-zinc-700 to-zinc-900 text-white'>
+    <div className='p-[16px] bg-gradient-to-l from-zinc-700 to-zinc-900 text-white space-y-5'>
         <div className='flex flex-col  ml-5  md:flex-row space-y-5 md:space-y-0   md:justify-evenly'>
             <div className='space-y-5'>
                 <p className='text-teal-500'>Pranaya Labs</p>
