@@ -8,7 +8,7 @@ import { usePathname } from 'next/navigation';
 const NavBar = () => {
    const pathname = usePathname();
   return (
-    <nav className='flex justify-around items-center bg-gradient-to-bl from-zinc-700 to-zinc-900  h-16 text-white'>
+    <nav className='flex justify-between px-10 items-center bg-gradient-to-bl from-zinc-700 to-zinc-900  h-16 text-white'>
         <p className='font-bold'>Pranaya Labs</p>
         <div className='hidden md:flex space-x-10 '>
             {navLinks.map((navLink,index)=>{
@@ -22,6 +22,11 @@ const NavBar = () => {
                 </div>} 
             )}          
         </div>
+                <Link href={'/contactUs'}>
+            <button className='w-36 bg-teal-500 hover:bg-teal-600 cursor-pointer p-1.5 rounded-[16px]'>
+                Start A Project
+            </button>
+        </Link>
         <Sheet>
             <SheetTrigger asChild>
                 <IoMenu className='md:hidden text-xl' />   

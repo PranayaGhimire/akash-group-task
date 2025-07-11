@@ -1,9 +1,11 @@
 import Image from 'next/image'
 import React from 'react'
 import aboutUs from "../../assets/aboutUs.jpg";
+import Team from '@/components/Team';
+import { teams } from '@/constants/teams';
 const AboutUsPage = () => {
   return (
-    <div className='h-250'>
+    <div className=''>
         <div className='flex flex-col  md:flex-row gap-10 mt-20'>
             <div className='w-full pl-[16px] md:pl-60 space-y-5'>
                 <div className='space-y-2'>
@@ -20,8 +22,13 @@ const AboutUsPage = () => {
                 <Image src={aboutUs} alt='' fill/>
             </div>
         </div>
-        <div className='space-y-10'>
+        <div className='flex flex-col items-center  my-24 px-20 md:px-85 space-y-10'>
             <p className='text-4xl text-teal-700 font-bold'>The Team</p>
+            <div className='flex flex-wrap gap-20'>
+                {teams.map((team,index) => 
+                    <Team key={index} photo ={team.photo} name={team.name} post={team.post} />
+                )}
+            </div>
         </div>
     </div>
   )
