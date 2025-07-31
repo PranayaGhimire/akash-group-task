@@ -9,7 +9,7 @@ const Team = (props:Props) => {
   return (
     <div className='w-50 space-y-5'>
         <div className='w-50 h-50  relative'>
-            <Image src={props.photo} alt='' fill className='rounded-full'/>
+            <Image src={`https://avatar.iran.liara.run/username?username=${props.name}`} alt='' fill className='rounded-full'/>
         </div>
         <div>
             <p className='font-bold text-xl'>{props.name}</p>

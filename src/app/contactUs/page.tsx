@@ -11,7 +11,7 @@ const ContactUsPage = () => {
             <p className='font-semibold text-xl'>Contact Us</p>
             <p className='font-bold text-5xl'>Get In Touch</p>
         </div>
-        <div className='space-y-5 md:flex p-[28px]'>
+        <div className='space-y-5 md:flex p-5 md:p-24 md:space-x-10'>
             <div className='w-full space-y-5 '>
                 <p className='text-3xl font-bold text-teal-800'>Contact Us</p>
                 <p className='text-zinc-700'>We at Pranaya Labs can provide you with unparalleled insight and digital marketing analysis. For assistance with any inquiries, or if you require our services, reach out to us at: </p>

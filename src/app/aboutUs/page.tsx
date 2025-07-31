@@ -13,7 +13,7 @@ const AboutUsPage = () => {
                     <p className='text-zinc-600 text-sm font-bold'>Company Profile</p>
                 </div>
                 <p className='text-4xl text-teal-700 font-bold leading-12'>Create A Strong Business Presence</p>
-                <p className='leading-7 text-zinc-600'>Combining our unrivaled specialism in specific digital activities with a strategic & differentiated approach, Aakash Labs is able to meet the increasingly complex needs of clients in an effortless yet productive manner in the constantly evolving digital landscape.</p>
+                <p className='leading-7 text-zinc-600'>Combining our unrivaled specialism in specific digital activities with a strategic & differentiated approach, Pranaya Labs is able to meet the increasingly complex needs of clients in an effortless yet productive manner in the constantly evolving digital landscape.</p>
                 <button className='w-28 bg-teal-500 hover:bg-teal-600 cursor-pointer p-2 rounded-[16px] text-white'>
                     See All
                 </button>

@@ -8,6 +8,10 @@
  import sujan from "../assets/sujan.jpeg";
  export const teams = [
         {
+            name:'Pranaya Ghimire',
+            post:'CEO'
+        },
+        {
             photo:dipesh,
             name:'Dipesh Karki',
             post:'Finance Manager'
