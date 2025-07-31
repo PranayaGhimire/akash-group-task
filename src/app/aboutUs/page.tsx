@@ -26,7 +26,7 @@ const AboutUsPage = () => {
             <p className='text-4xl text-teal-700 font-bold'>The Team</p>
             <div className='flex flex-wrap gap-20'>
                 {teams.map((team,index) => 
-                    <Team key={index} photo ={team.photo} name={team.name} post={team.post} />
+                    <Team key={index} name={team.name} post={team.post} />
                 )}
             </div>
         </div>

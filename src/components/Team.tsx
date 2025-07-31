@@ -1,7 +1,6 @@
-import Image, { StaticImageData } from 'next/image'
+import Image from 'next/image'
 import React from 'react'
 interface Props {
-    photo:StaticImageData,
     name:string,
     post:string
 }
